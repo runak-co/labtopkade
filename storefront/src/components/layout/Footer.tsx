@@ -140,9 +140,13 @@ export default function Footer() {
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-rose-500 shrink-0" />
-              <span className="text-white font-semibold">۰۹۱۸ ۳۷۵ ۱۴۶۸</span>
+              <a href="tel:09183751468" className="text-white font-semibold hover:text-rose-400 transition">
+                <span dir="ltr">۰۹۱۸۳۷۵۱۴۶۸</span>
+              </a>
               <span className="text-slate-500">/</span>
-              <span>۰۹۱۲ ۰۴۸ ۱۴۶۸</span>
+              <a href="tel:09120481468" className="hover:text-rose-400 transition">
+                <span dir="ltr">۰۹۱۲۰۴۸۱۴۶۸</span>
+              </a>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-rose-500 shrink-0" />
