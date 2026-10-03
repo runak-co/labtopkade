@@ -34,7 +34,7 @@ export default function Header() {
   };
 
   return (
-    <header className="w-full bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
+    <>
       {/* 1. Top Announcement Bar */}
       <div className="bg-slate-900 text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
         <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
@@ -62,8 +62,9 @@ export default function Header() {
         </div>
       </div>
 
-      {/* 2. Main Header Bar */}
-      <div className="max-w-7xl mx-auto px-4 py-3.5 flex items-center justify-between gap-4">
+      {/* 2. Main Header Bar (Scrolls naturally with page) */}
+      <header className="w-full bg-white border-b border-slate-100">
+        <div className="max-w-7xl mx-auto px-4 py-3.5 flex items-center justify-between gap-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 shrink-0">
           <div className="relative w-12 h-12 md:w-14 md:h-14 bg-rose-50 rounded-xl p-1.5 flex items-center justify-center border border-rose-100">
@@ -169,9 +170,10 @@ export default function Header() {
           <Search className="w-4 h-4 text-slate-400 absolute right-3" />
         </form>
       </div>
+    </header>
 
-      {/* 3. Mega Navigation Bar */}
-      <nav className="bg-slate-50 border-t border-slate-200/80 hidden lg:block">
+    {/* 3. Mega Navigation Bar (Sticky at top of screen) */}
+    <nav className="bg-slate-50 border-b border-slate-200/80 sticky top-0 z-40 shadow-sm hidden lg:block">
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-between text-sm">
           <div className="flex items-center space-x-reverse space-x-1">
             {/* All Categories Button */}
@@ -292,6 +294,6 @@ export default function Header() {
           </div>
         </div>
       )}
-    </header>
+    </>
   );
 }
