@@ -1,0 +1,57 @@
+name: Release Storefront
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag to upload asset to'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: storefront/package-lock.json
+
+      - name: Install dependencies
+        working-directory: storefront
+        run: npm ci
+
+      - name: Build Next.js storefront
+        working-directory: storefront
+        env:
+          NEXT_TELEMETRY_DISABLED: 1
+        run: npm run build
+
+      - name: Prepare standalone bundle
+        run: |
+          TAG="${{ github.event.release.tag_name || inputs.tag }}"
+          # Copy public folder and static assets to standalone directory
+          if [ -d storefront/public ]; then
+            cp -r storefront/public storefront/.next/standalone/public
+          fi
+          mkdir -p storefront/.next/standalone/.next
+          cp -r storefront/.next/static storefront/.next/standalone/.next/static
+
+          # Compress standalone build
+          tar -czf "storefront-standalone-${TAG}.tar.gz" -C storefront/.next/standalone .
+
+      - name: Upload asset to GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="${{ github.event.release.tag_name || inputs.tag }}"
+          gh release upload "${TAG}" "storefront-standalone-${TAG}.tar.gz" --clobber
