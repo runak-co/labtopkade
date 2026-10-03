@@ -40,15 +40,17 @@ export default function HeroBanner() {
           </Link>
         </div>
 
-        {/* Background decorative laptop image */}
-        <div className="absolute left-[-5%] bottom-[-5%] w-72 md:w-96 h-72 md:h-96 opacity-25 lg:opacity-40 pointer-events-none">
-          <Image
-            src="https://laptopkade.com/wp-content/uploads/2021/03/Logo-Laptopkade.png"
-            alt="لپ تاپ کده"
-            fill
-            className="object-contain"
-            unoptimized
-          />
+        {/* Background decorative logo watermark centered */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
+          <div className="relative w-72 md:w-96 lg:w-[420px] h-72 md:h-96 lg:h-[420px] opacity-20 lg:opacity-25">
+            <Image
+              src="https://laptopkade.com/wp-content/uploads/2021/03/Logo-Laptopkade.png"
+              alt="لپ تاپ کده"
+              fill
+              className="object-contain"
+              unoptimized
+            />
+          </div>
         </div>
       </div>
 

@@ -52,11 +52,11 @@ export default function Header() {
           <div className="flex items-center space-x-reverse space-x-4">
             <a href="tel:09183751468" className="flex items-center gap-1 hover:text-white transition">
               <Phone className="w-3.5 h-3.5 text-rose-500" />
-              <span className="font-semibold text-white">۰۹۱۸ ۳۷۵ ۱۴۶۸</span>
+              <span className="font-semibold text-white" dir="ltr">۰۹۱۸۳۷۵۱۴۶۸</span>
             </a>
             <span className="text-slate-600">|</span>
             <a href="tel:09120481468" className="hover:text-white transition">
-              ۰۹۱۲ ۰۴۸ ۱۴۶۸
+              <span dir="ltr">۰۹۱۲۰۴۸۱۴۶۸</span>
             </a>
           </div>
         </div>
