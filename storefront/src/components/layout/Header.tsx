@@ -89,7 +89,7 @@ export default function Header() {
 
         {/* Live Search Bar */}
         <div className="flex-1 max-w-2xl mx-2 hidden lg:block">
-          <form onSubmit={handleSearch} className="relative flex items-center">
+          <form onSubmit={handleSearch} className="relative flex items-stretch h-11">
             <div className="relative flex-1 flex items-center bg-slate-100 rounded-r-xl border border-slate-200 focus-within:border-rose-500 focus-within:bg-white transition">
               <Search className="w-5 h-5 text-slate-400 mr-3 shrink-0" />
               <input
@@ -97,24 +97,27 @@ export default function Header() {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="جستجوی نام لپ‌تاپ، دل Precision، اچ‌پی ZBook، لنوو، سرفیس..."
-                className="w-full bg-transparent px-3 py-2.5 text-sm text-slate-800 placeholder-slate-400 focus:outline-none"
+                className="w-full h-full bg-transparent px-3 text-sm text-slate-800 placeholder-slate-400 focus:outline-none"
               />
             </div>
-            <select
-              value={selectedCategory}
-              onChange={(e) => setSelectedCategory(e.target.value)}
-              className="bg-slate-100 border-y border-l border-slate-200 text-xs text-slate-600 px-3 py-3 focus:outline-none cursor-pointer"
-            >
-              <option value="all">همه دسته‌ها</option>
-              <option value="dell">لپ‌تاپ دل (Dell)</option>
-              <option value="hp">لپ‌تاپ اچ‌پی (HP)</option>
-              <option value="lenovo">لپ‌تاپ لنوو (Lenovo)</option>
-              <option value="gaming">گیمینگ و رندرینگ</option>
-              <option value="parts">قطعات و لوازم جانبی</option>
-            </select>
+            <div className="relative flex items-center bg-slate-100 border-y border-l border-slate-200 hover:bg-slate-200/50 transition">
+              <ChevronDown className="w-3.5 h-3.5 text-slate-500 absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />
+              <select
+                value={selectedCategory}
+                onChange={(e) => setSelectedCategory(e.target.value)}
+                className="appearance-none bg-transparent text-xs text-slate-600 pr-7 pl-3 h-full focus:outline-none cursor-pointer"
+              >
+                <option value="all">همه دسته‌ها</option>
+                <option value="dell">لپ‌تاپ دل (Dell)</option>
+                <option value="hp">لپ‌تاپ اچ‌پی (HP)</option>
+                <option value="lenovo">لپ‌تاپ لنوو (Lenovo)</option>
+                <option value="gaming">گیمینگ و رندرینگ</option>
+                <option value="parts">قطعات و لوازم جانبی</option>
+              </select>
+            </div>
             <button
               type="submit"
-              className="bg-rose-600 hover:bg-rose-700 text-white font-medium px-5 py-2.5 rounded-l-xl text-sm transition shadow-sm"
+              className="bg-rose-600 hover:bg-rose-700 text-white font-medium px-5 rounded-l-xl text-sm transition shadow-sm flex items-center justify-center shrink-0"
             >
               جستجو
             </button>
