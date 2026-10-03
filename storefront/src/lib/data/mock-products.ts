@@ -82,8 +82,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق",
       "گارانتی": "تست سلامت 10 روزه"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.8,
+    "reviewCount": 14
   },
   {
     "id": 2252,
@@ -163,8 +163,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "توضیحات سیستم عامل": "قابلیت نصب سیتسم عامل های روز",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.6,
+    "reviewCount": 8
   },
   {
     "id": 2426,
@@ -235,8 +235,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق, کیبورد",
       "تعداد هسته": "چهار هسته"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.9,
+    "reviewCount": 23
   },
   {
     "id": 2421,
@@ -317,8 +317,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق",
       "گارانتی": "تست سلامت 10 روزه"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.5,
+    "reviewCount": 6
   },
   {
     "id": 2409,
@@ -399,8 +399,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق",
       "گارانتی": "تست سلامت 10 روزه"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.7,
+    "reviewCount": 31
   },
   {
     "id": 2390,
@@ -482,8 +482,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "تعداد هسته": "چهار هسته",
       "محدوده سرعت پردازنده": "2.8 گیگاهرتز تا 3.9 گیگاهرتز"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.3,
+    "reviewCount": 11
   },
   {
     "id": 2370,
@@ -559,8 +559,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "توضیحات سیستم عامل": "قابلیت نصب سیتسم عامل های روز",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.8,
+    "reviewCount": 19
   },
   {
     "id": 2345,
@@ -631,7 +631,7 @@ export const MOCK_PRODUCTS: Product[] = [
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق, کیبورد",
       "تعداد هسته": "چهار هسته"
     },
-    "rating": 0.0,
+    "rating": 4.4,
     "reviewCount": 5
   },
   {
@@ -707,8 +707,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "توضیحات سیستم عامل": "قابلیت نصب سیتسم عامل های روز",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 5.0,
+    "reviewCount": 27
   },
   {
     "id": 2311,
@@ -787,8 +787,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "توضیحات سیستم عامل": "قابلیت نصب سیتسم عامل های روز",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.7,
+    "reviewCount": 16
   },
   {
     "id": 2246,
@@ -867,8 +867,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "توضیحات سیستم عامل": "قابلیت نصب سیتسم عامل های روز",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.5,
+    "reviewCount": 9
   },
   {
     "id": 2213,
@@ -944,8 +944,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "توضیحات سیستم عامل": "قابلیت نصب سیتسم عامل های روز",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.8,
+    "reviewCount": 34
   },
   {
     "id": 2182,
@@ -972,8 +972,8 @@ export const MOCK_PRODUCTS: Product[] = [
     "shortDescription": "",
     "description": "",
     "attributes": {},
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.2,
+    "reviewCount": 4
   },
   {
     "id": 2135,
@@ -1043,8 +1043,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "توضیحات سیستم عامل": "قابلیت نصب سیتسم عامل های روز",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.9,
+    "reviewCount": 25
   },
   {
     "id": 2130,
@@ -1115,8 +1115,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "توضیحات سیستم عامل": "قابلیت نصب سیتسم عامل های روز",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.6,
+    "reviewCount": 12
   },
   {
     "id": 1795,
@@ -1165,8 +1165,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق",
       "مدل پردازنده گرافیکی": "NVIDA QUADRO K5100M"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.7,
+    "reviewCount": 18
   },
   {
     "id": 2090,
@@ -1232,8 +1232,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "توضیحات سیستم عامل": "قابلیت نصب سیتسم عامل های روز",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.4,
+    "reviewCount": 7
   },
   {
     "id": 1791,
@@ -1285,8 +1285,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "تعداد پورت USB 3.0": "2",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.9,
+    "reviewCount": 29
   },
   {
     "id": 1784,
@@ -1331,8 +1331,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "پورت شبکه Ethernet": "ٍEthernet, Fast Ethernet, Gigabit Ethernet",
       "پورت VGA": "دارد"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.6,
+    "reviewCount": 15
   },
   {
     "id": 2069,
@@ -1360,8 +1360,8 @@ export const MOCK_PRODUCTS: Product[] = [
     "shortDescription": "",
     "description": "",
     "attributes": {},
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.3,
+    "reviewCount": 8
   },
   {
     "id": 1939,
@@ -1425,8 +1425,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "توضیحات سیستم عامل": "قابلیت نصب سیتسم عامل های روز",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.8,
+    "reviewCount": 22
   },
   {
     "id": 1922,
@@ -1491,8 +1491,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "توضیحات سیستم عامل": "قابلیت نصب سیتسم عامل های روز",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.5,
+    "reviewCount": 10
   },
   {
     "id": 1897,
@@ -1521,8 +1521,8 @@ export const MOCK_PRODUCTS: Product[] = [
     "shortDescription": "",
     "description": "",
     "attributes": {},
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.7,
+    "reviewCount": 17
   },
   {
     "id": 1853,
@@ -1597,8 +1597,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "توضیحات سیستم عامل": "قابلیت نصب سیتسم عامل های روز",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 5.0,
+    "reviewCount": 36
   },
   {
     "id": 1759,
@@ -1666,8 +1666,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "نوع باتری": "لیتیوم یونی",
       "توضیحات باتری": "8-cell"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.6,
+    "reviewCount": 13
   },
   {
     "id": 1747,
@@ -1723,8 +1723,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "پورت HDMI": "ندارد",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.4,
+    "reviewCount": 6
   },
   {
     "id": 1686,
@@ -1771,8 +1771,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "بلوتوث": "دارد",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق, کیبورد"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.8,
+    "reviewCount": 24
   },
   {
     "id": 1665,
@@ -1821,8 +1821,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق",
       "رده بندی کیفی": "استوک (دست دوم)"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.5,
+    "reviewCount": 9
   },
   {
     "id": 1656,
@@ -1872,8 +1872,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "بلوتوث": "دارد",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.9,
+    "reviewCount": 32
   },
   {
     "id": 1578,
@@ -1924,8 +1924,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "بلوتوث": "دارد",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.7,
+    "reviewCount": 19
   },
   {
     "id": 1569,
@@ -1972,7 +1972,7 @@ export const MOCK_PRODUCTS: Product[] = [
       "بلوتوث": "دارد",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
+    "rating": 4.2,
     "reviewCount": 5
   },
   {
@@ -2020,8 +2020,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "بلوتوث": "دارد",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.6,
+    "reviewCount": 14
   },
   {
     "id": 1559,
@@ -2066,8 +2066,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "بلوتوث": "دارد",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.7,
+    "reviewCount": 21
   },
   {
     "id": 1525,
@@ -2115,8 +2115,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "بلوتوث": "دارد",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.3,
+    "reviewCount": 8
   },
   {
     "id": 1516,
@@ -2161,8 +2161,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "بلوتوث": "دارد",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.8,
+    "reviewCount": 28
   },
   {
     "id": 1455,
@@ -2212,8 +2212,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "بلوتوث": "دارد",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 5.0,
+    "reviewCount": 30
   },
   {
     "id": 1450,
@@ -2258,8 +2258,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "بلوتوث": "دارد",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.4,
+    "reviewCount": 7
   },
   {
     "id": 1446,
@@ -2303,8 +2303,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "بلوتوث": "دارد",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.6,
+    "reviewCount": 16
   },
   {
     "id": 1439,
@@ -2350,8 +2350,8 @@ export const MOCK_PRODUCTS: Product[] = [
       "امکانات.وبکم": "دارد",
       "بلوتوث": "دارد"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.9,
+    "reviewCount": 35
   },
   {
     "id": 1342,
@@ -2399,7 +2399,7 @@ export const MOCK_PRODUCTS: Product[] = [
       "بلوتوث": "دارد",
       "اقلام همراه لپ تاپ": "آدابتور, کابل برق"
     },
-    "rating": 0.0,
-    "reviewCount": 5
+    "rating": 4.5,
+    "reviewCount": 11
   }
 ];

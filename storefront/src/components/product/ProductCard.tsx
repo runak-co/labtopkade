@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Product } from '@/types/product';
-import { formatPrice, calculateDiscount } from '@/lib/utils/format';
+import { formatPrice, calculateDiscount, toPersianDigits } from '@/lib/utils/format';
 import { Star, ShoppingCart, Cpu, HardDrive, ShieldCheck } from 'lucide-react';
 
 interface ProductCardProps {
@@ -50,7 +50,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           <div className="flex items-center justify-between text-xs">
             <span className="flex items-center gap-1 text-amber-500 font-bold">
               <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
-              ۴.۸
+              {toPersianDigits(product.rating ? product.rating.toFixed(1) : '4.6')}
             </span>
             <span className="flex items-center gap-1 text-emerald-600 font-medium text-[11px]">
               <ShieldCheck className="w-3.5 h-3.5" />

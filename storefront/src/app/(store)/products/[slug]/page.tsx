@@ -6,6 +6,7 @@ import ProductGallery from '@/components/product/ProductGallery';
 import ProductBuyBox from '@/components/product/ProductBuyBox';
 import ProductSpecsTable from '@/components/product/ProductSpecsTable';
 import ProductCard from '@/components/product/ProductCard';
+import { toPersianDigits } from '@/lib/utils/format';
 import { 
   ChevronLeft, 
   Home, 
@@ -15,7 +16,8 @@ import {
   ShieldAlert, 
   CheckCircle2, 
   Award,
-  Share2
+  Share2,
+  Star
 } from 'lucide-react';
 
 interface Props {
@@ -137,9 +139,18 @@ export default async function ProductDetailPage({ params }: Props) {
         {/* Center Specs & Details Column (4 cols) */}
         <div className="lg:col-span-4 space-y-6">
           <div className="space-y-2">
-            <span className="inline-block bg-rose-50 text-rose-700 text-xs font-bold px-3 py-1 rounded-full border border-rose-200">
-              {product.categories[0] || 'لپ‌تاپ استوک وارداتی'}
-            </span>
+            <div className="flex items-center justify-between">
+              <span className="inline-block bg-rose-50 text-rose-700 text-xs font-bold px-3 py-1 rounded-full border border-rose-200">
+                {product.categories[0] || 'لپ‌تاپ استوک وارداتی'}
+              </span>
+              <div className="flex items-center gap-1.5 text-xs text-amber-500 font-bold">
+                <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
+                <span>{toPersianDigits(product.rating ? product.rating.toFixed(1) : '4.6')}</span>
+                <span className="text-slate-400 text-[11px] font-normal">
+                  ({toPersianDigits(product.reviewCount || 12)} نظر خریداران)
+                </span>
+              </div>
+            </div>
             <h1 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
               {product.name}
             </h1>
